@@ -1,0 +1,24 @@
+{
+    "version": "0.3.0",
+    "configurations": [
+        {
+            "type": "al",   
+            "request": "launch",
+            "name": "DEV JS",
+            "server": "https://businesscentral.dynamics.com",
+            "tenant": "fe94b03b-eafc-4acf-bef2-246df5367397",
+            "environmentType": "Sandbox",
+            "environmentName": "CXSolutionsDEVJS",
+            "authentication":"AAD",
+            "startupObjectType": "Page",
+            "schemaUpdateMode":"ForceSync",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "forceUpgrade": true,
+            "startupObjectId": 9956001,
+            "startupCompany": "My Company"
+        }
+    ]
+}
